@@ -1,0 +1,70 @@
+#light {
+  background-image: url("http://latimesblogs.latimes.com/.a/6a00d8341c630a53ef0120a5ef0c44970b-600wi");
+  background-size: cover;
+  background-repeat:no-repeat;
+  background-attachment: fixed;
+}
+#special{
+  background-image: url("http://i.imgur.com/ja3Zi.jpg");
+  background-size: cover;
+  background-repeat:no-repeat;
+  background-attachment: fixed;
+}
+
+h1 {
+  font-weight: bold;
+  color: White;
+}
+h2  {
+  color:white;
+}
+h3 {
+  color:white;
+}
+h5 {
+  font-weight: bold;
+  color: White;
+}
+p  {
+  color:white;
+}
+
+
+#introlist {
+  color:white;
+}
+#effectslist{
+  color:white;
+}
+#effectslink{
+  color:yellow;
+}
+
+.link{
+  color:white;
+  text-decoration:underline;
+}
+
+li  {
+  color: white;
+}
+
+.collapsible-header{
+  color:black;
+}
+body {
+  font-family:"Trebuchet MS", Helvetica, sans-serif;
+  animation: fadein 3s;
+}
+.card-title{
+  color:black;
+}
+@keyframes fadein{
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+a:hover{
+  animation: fadein 1s;
+  color: cyan;
+}
